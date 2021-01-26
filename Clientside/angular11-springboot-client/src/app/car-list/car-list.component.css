@@ -1,0 +1,25 @@
+*{
+  font-family: 'Raleway', sans-serif;
+}
+
+tbody{
+  background-color: #ffd2e2;
+}
+
+tr{
+  margin-bottom: 10px;
+  padding: 1em;
+}
+
+tbody td button{
+  float: right;
+
+}
+
+.knappar button{
+  border-radius: 25px;
+  padding-left: 1em;
+  margin-left: 10px
+}
+
+

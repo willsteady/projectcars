@@ -33,3 +33,4 @@ describe('AppComponent', () => {
     expect(compiled.querySelector('.content span').textContent).toContain('angular11-springboot-client app is running!');
   });
 });
+

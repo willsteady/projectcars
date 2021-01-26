@@ -1,0 +1,12 @@
+button{
+  background-color: #f32167;
+  border-color: #f32167;
+  box-shadow: 3px 3px rgba(136, 136, 136, 0.213);
+}
+
+button:hover {
+  background-color: #a5083c;
+  color: rgb(255, 255, 255);
+  border-color: #a5083c;
+  cursor: pointer;
+}

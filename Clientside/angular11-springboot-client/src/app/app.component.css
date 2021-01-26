@@ -1,0 +1,22 @@
+h2{
+  font-size: 3em;
+  color: #f32167;
+  text-align: center;
+}
+
+.bg-primary {
+  background-color: #f32167!important;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+body{
+  background-image: url('background.png');
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+  color: black;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: rgb(0 0 0 / 50%);
+}

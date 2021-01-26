@@ -15,10 +15,8 @@ import java.util.Map;
 @RestController @CrossOrigin(origins = "http://localhost:4200")
 @RequestMapping("/api/v1/")
 public class CarController {
-
     @Autowired
     private CarRepository carRepository;
-
     //get cars
     @GetMapping("cars")
     public List<Car> getAllCars(){

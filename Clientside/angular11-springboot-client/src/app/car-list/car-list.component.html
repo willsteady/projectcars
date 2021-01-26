@@ -18,11 +18,13 @@
         <td>{{car.model}}</td>
         <td>{{car.year}}</td>
         <td>{{car.price}}</td>
-        <td><button (click)="deleteCar(car.id)" class="btn btn-danger">Delete</button>
-          <button (click)="updateCar(car.id)" class="btn btn-info" style="margin-left: 10px">Update</button>
-          <button (click)="carDetails(car.id)" class="btn btn-info" style="margin-left: 10px">Details</button>
+        <td class="knappar">
+          <button (click)="deleteCar(car.id)" class="btn btn-danger">Delete</button>
+          <button (click)="updateCar(car.id)" class="btn btn-info">Update</button>
+          <button (click)="carDetails(car.id)" class="btn btn-info">Details</button>
         </td>
       </tr>
+      <br>
       </tbody>
     </table>
   </div>

@@ -1,5 +1,9 @@
 @import '~bootstrap/dist/css/bootstrap.min.css';
 
+body{
+  background-image: url('background.png');
+}
+
 .footer {
     position: absolute;
     bottom: 0;
